@@ -1,4 +1,5 @@
-﻿using MauiApp2.Servicios;
+﻿using MauiApp2.Models;
+using MauiApp2.Servicios;
 using MauiApp2.ViewModels;
 
 namespace MauiApp2.View;
@@ -18,6 +19,17 @@ public partial class HomeView : ContentPage
     {
         base.OnAppearing();
         _viewModel.LoadData();
+    }
+    
+    private async void OnPersonajeTapped(object sender, EventArgs e)
+    {
+       
+        // Obtén el personaje seleccionado
+        var frame = sender as Frame;
+        var personaje = frame.BindingContext as Personajes;
+
+        // Navega a la vista de detalles del personaje y pasa el personaje seleccionado
+        await Navigation.PushAsync(new DetailView(personaje));
     }
 }
 

@@ -13,6 +13,9 @@
           <CollectionView.ItemTemplate>
               <DataTemplate>
                   <Frame BackgroundColor="LightGray" CornerRadius="10"  WidthRequest="180">
+                      <Frame.GestureRecognizers>
+                          <TapGestureRecognizer Tapped="OnPersonajeTapped" />
+                      </Frame.GestureRecognizers>
                       <Grid>
                           <Grid.RowDefinitions>
                               <RowDefinition Height="Auto" />

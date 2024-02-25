@@ -6,10 +6,10 @@ namespace MauiApp2.View;
 
     public partial class DetailView : ContentPage
     {
-        public DetailView()
+        public DetailView(Personajes personaje)
         {
             InitializeComponent();
-           
+            BindingContext = personaje;
         }
 
     }
