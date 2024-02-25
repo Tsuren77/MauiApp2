@@ -9,10 +9,10 @@
     Title="MauiApp2">
 
     <ShellContent
-        Title="Home"
+        Title="Personajes"
         ContentTemplate="{DataTemplate views:HomeView}"
         Route="home" />
-    <ShellContent Title="Primer"
+    <ShellContent Title="Lista de Lugares"
                   ContentTemplate="{DataTemplate views:PrimerNivelView}"
                   Route="primer" />
     

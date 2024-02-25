@@ -114,6 +114,7 @@ C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.AssemblyInfoInputs.cache
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.AssemblyInfo.cs
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.csproj.CoreCompileInputs.cache
+C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.sourcelink.json
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\XamlC.stamp
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.dll
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.pdb
@@ -1068,4 +1069,3 @@ C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\stamp\_C
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-android\MauiApp2.sourcelink.json
