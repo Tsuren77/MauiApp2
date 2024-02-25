@@ -15,5 +15,6 @@
     <ShellContent Title="Primer"
                   ContentTemplate="{DataTemplate views:PrimerNivelView}"
                   Route="primer" />
+    
 
 </Shell>

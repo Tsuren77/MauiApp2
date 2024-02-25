@@ -7,7 +7,6 @@ using MauiApp2.Servicios;
 
 namespace MauiApp2.ViewModels;
 
-
 public class HomeViewModel : INotifyPropertyChanged
 {
     private readonly IRickAndMortyService _rickAndMortyService;
@@ -15,7 +14,7 @@ public class HomeViewModel : INotifyPropertyChanged
     public HomeViewModel(IRickAndMortyService service)
     {
         _rickAndMortyService = service;
-        CounterCommand = new Command(async () => await LoadData());
+        LoadData();
     }
 
     private bool _isLoading;

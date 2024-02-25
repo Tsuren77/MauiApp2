@@ -1,12 +1,15 @@
-﻿using MauiApp2.ViewModels;
+﻿using MauiApp2.Models;
+using MauiApp2.ViewModels;
 
 namespace MauiApp2.View;
 
-public partial class DetailView : ContentPage
-{
-    public DetailView(DetailViewModel detailViewModel)
+
+    public partial class DetailView : ContentPage
     {
-        InitializeComponent();
-        BindingContext = detailViewModel;
+        public DetailView()
+        {
+            InitializeComponent();
+           
+        }
+
     }
-}

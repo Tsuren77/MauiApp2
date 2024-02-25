@@ -19,10 +19,9 @@ public static class MauiProgram
             });
         
         builder.Services.AddSingleton<IRickAndMortyService,RickAndMortyService>();
+        
         builder.Services.AddTransient<HomeView> ();
         builder.Services.AddTransient<HomeViewModel> ();
-        builder.Services.AddTransient<DetailView> ();
-        builder.Services.AddTransient<DetailViewModel> ();
         
 
 #if DEBUG

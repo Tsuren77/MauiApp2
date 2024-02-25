@@ -8,11 +8,10 @@ public partial class AppShell : Shell
     {
         InitializeComponent();
         InitializeRouting();
-        
     }
 
     private static void InitializeRouting()
     {
-        Routing.RegisterRoute("home/primer", typeof(DetailView));
+        Routing.RegisterRoute("home/detail", typeof(DetailView));
     }
 }

@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MauiApp2.Servicios;
+﻿using MauiApp2.Servicios;
 using MauiApp2.ViewModels;
 
 namespace MauiApp2.View;
 
 public partial class HomeView : ContentPage
 {
-    private readonly IRickAndMortyService _rickAndMortyService;
+    private readonly HomeViewModel _viewModel;
 
     public HomeView(IRickAndMortyService service)
     {
         InitializeComponent();
-        _rickAndMortyService = service;
-        BindingContext = new HomeViewModel(_rickAndMortyService);
+        _viewModel = new HomeViewModel(service);
+        BindingContext = _viewModel;
     }
 
-    private async void OnCounterClicked(object sender, EventArgs e)
+    protected override void OnAppearing()
     {
-        await ((HomeViewModel)BindingContext).LoadData();
+        base.OnAppearing();
+        _viewModel.LoadData();
     }
 }
+

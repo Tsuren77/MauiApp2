@@ -5,39 +5,26 @@
              xmlns:vm="clr-namespace:MauiApp2.ViewModels;assembly=MauiApp2"
              x:Class="MauiApp2.View.HomeView">
     <ContentPage.Content>
-        
-        <ScrollView>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25"
-                VerticalOptions="Center">
-            
-            
-                <Button
-                    x:Name="Btnsacar"
-                    Text="Boton para Javi" 
-                    SemanticProperties.Hint="Counts the number of times you click"
-                    Clicked="OnCounterClicked"
-                    HorizontalOptions="Fill" />
-            
-                <ActivityIndicator x:Name="loading" HeightRequest="30" Color="Blue" IsRunning="True" IsVisible="False"/>
-                
-                <ListView ItemsSource="{Binding Personajes}">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Orientation="Horizontal" Padding="10">
-                                    <Image Source="{Binding image}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill"/>
-                                    <Label Text="{Binding name}" VerticalTextAlignment="Center" Margin="10,0,0,0"></Label>
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                    
-                </ListView>
-            
-            
-            </VerticalStackLayout>
-        </ScrollView>
+      
+      <CollectionView ItemsSource="{Binding Personajes}">
+          <CollectionView.ItemsLayout>
+              <GridItemsLayout Orientation="Vertical" Span="4" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+          </CollectionView.ItemsLayout>
+          <CollectionView.ItemTemplate>
+              <DataTemplate>
+                  <Frame BackgroundColor="LightGray" CornerRadius="10"  WidthRequest="180">
+                      <Grid>
+                          <Grid.RowDefinitions>
+                              <RowDefinition Height="Auto" />
+                              <RowDefinition Height="Auto" />
+                          </Grid.RowDefinitions>
+                          <Image Grid.Row="0" Source="{Binding image}" Aspect="AspectFill" HeightRequest="150" />
+                          <Label Grid.Row="1" Text="{Binding name}" VerticalTextAlignment="Center" Margin="5"/>
+                      </Grid>
+                  </Frame>
+              </DataTemplate>
+          </CollectionView.ItemTemplate>
+      </CollectionView>
+
     </ContentPage.Content>
 </ContentPage>
