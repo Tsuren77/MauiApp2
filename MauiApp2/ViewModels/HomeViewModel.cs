@@ -31,7 +31,7 @@ public class HomeViewModel : INotifyPropertyChanged
         set { SetProperty(ref _personajes, value); }
     }
 
-    public ICommand CounterCommand { get; }
+    
 
     public async Task LoadData()
     {

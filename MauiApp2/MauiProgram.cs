@@ -22,6 +22,8 @@ public static class MauiProgram
         
         builder.Services.AddTransient<HomeView> ();
         builder.Services.AddTransient<HomeViewModel> ();
+        builder.Services.AddTransient<PrimerNivelView> ();
+        builder.Services.AddTransient<PrimerViewModel> ();
         
 
 #if DEBUG

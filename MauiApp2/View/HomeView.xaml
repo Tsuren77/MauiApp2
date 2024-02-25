@@ -2,7 +2,6 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vm="clr-namespace:MauiApp2.ViewModels;assembly=MauiApp2"
              x:Class="MauiApp2.View.HomeView">
     <ContentPage.Content>
       
@@ -12,7 +11,7 @@
           </CollectionView.ItemsLayout>
           <CollectionView.ItemTemplate>
               <DataTemplate>
-                  <Frame BackgroundColor="LightGray" CornerRadius="10"  WidthRequest="180">
+                  <Frame BackgroundColor="#97ce4c" CornerRadius="10"  WidthRequest="180">
                       <Frame.GestureRecognizers>
                           <TapGestureRecognizer Tapped="OnPersonajeTapped" />
                       </Frame.GestureRecognizers>

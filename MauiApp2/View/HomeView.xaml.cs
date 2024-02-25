@@ -24,11 +24,8 @@ public partial class HomeView : ContentPage
     private async void OnPersonajeTapped(object sender, EventArgs e)
     {
        
-        // Obtén el personaje seleccionado
         var frame = sender as Frame;
         var personaje = frame.BindingContext as Personajes;
-
-        // Navega a la vista de detalles del personaje y pasa el personaje seleccionado
         await Navigation.PushAsync(new DetailView(personaje));
     }
 }

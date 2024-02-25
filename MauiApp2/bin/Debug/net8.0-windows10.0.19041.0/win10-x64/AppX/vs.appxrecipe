@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-25T20:01:47.908</Modified>
+      <Modified>2024-02-25T21:41:36.494</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-25T19:56:38.795</Modified>
+      <Modified>2024-02-25T21:15:38.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
       <PackagePath>MauiApp2.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
       <PackagePath>MauiApp2.dll</PackagePath>
-      <Modified>2024-02-25T20:01:46.894</Modified>
+      <Modified>2024-02-25T21:41:35.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp2.exe</PackagePath>
-      <Modified>2024-02-25T20:01:46.948</Modified>
+      <Modified>2024-02-25T21:41:35.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
