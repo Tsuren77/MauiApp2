@@ -4,5 +4,97 @@
         <name>MauiApp2</name>
     </assembly>
     <members>
+        <member name="T:MauiApp2.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.Abou">
+            <summary>
+              Looks up a localized string similar to espa.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.Characters">
+            <summary>
+              Looks up a localized string similar to Characters.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.CIdiomaEsp">
+            <summary>
+              Looks up a localized string similar to Spanish.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.CIdiomaIng">
+            <summary>
+              Looks up a localized string similar to English.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.CSetting">
+            <summary>
+              Looks up a localized string similar to Settings.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.Location">
+            <summary>
+              Looks up a localized string similar to Locations.
+            </summary>
+        </member>
+        <member name="T:MauiApp2.Properties.Resources_es">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.Abou">
+            <summary>
+              Looks up a localized string similar to ingles.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.Characters">
+            <summary>
+              Looks up a localized string similar to Personajes.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.CIdiomaEsp">
+            <summary>
+              Looks up a localized string similar to Español.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.CIdiomaIng">
+            <summary>
+              Looks up a localized string similar to Ingles.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.CSetting">
+            <summary>
+              Looks up a localized string similar to Configuracion.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.Location">
+            <summary>
+              Looks up a localized string similar to Lugares.
+            </summary>
+        </member>
     </members>
 </doc>

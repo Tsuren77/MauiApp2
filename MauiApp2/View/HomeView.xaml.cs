@@ -29,4 +29,3 @@ public partial class HomeView : ContentPage
         await Navigation.PushAsync(new DetailView(personaje));
     }
 }
-

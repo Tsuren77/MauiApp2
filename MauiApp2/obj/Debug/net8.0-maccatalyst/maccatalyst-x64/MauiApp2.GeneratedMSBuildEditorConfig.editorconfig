@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/tabat/RiderProjects/MauiApp2/MauiApp2/View/AboutView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.View.AboutView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AboutView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AboutView.xaml
+
 [C:/Users/tabat/RiderProjects/MauiApp2/MauiApp2/View/DetailView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.View.DetailView.xaml
@@ -63,3 +69,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.View.PrimerNivelView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PrimerNivelView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PrimerNivelView.xaml
+
+[C:/Users/tabat/RiderProjects/MauiApp2/MauiApp2/View/SettingView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.View.SettingView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SettingView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SettingView.xaml

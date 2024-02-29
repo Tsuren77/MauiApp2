@@ -5,16 +5,23 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiApp2"
     xmlns:views="clr-namespace:MauiApp2.View"
+    xmlns:p="clr-namespace:MauiApp2.Properties"
     Shell.FlyoutBehavior="Flyout"
     Title="MauiApp2">
 
     <ShellContent
-        Title="Personajes"
+        Title="{x:Static p:Resources.Characters}"
         ContentTemplate="{DataTemplate views:HomeView}"
         Route="home" />
-    <ShellContent Title="Lista de Lugares"
+    <ShellContent Title="{x:Static p:Resources.Location}"
                   ContentTemplate="{DataTemplate views:PrimerNivelView}"
                   Route="primer" />
+    <ShellContent Title="{x:Static p:Resources.Abou}"
+                  ContentTemplate="{DataTemplate views:AboutView}"
+                  Route="about" />
+    <ShellContent Title="{x:Static p:Resources.CSetting}"
+                  ContentTemplate="{DataTemplate views:SettingView}"
+                  Route="settings" />
     
 
 </Shell>

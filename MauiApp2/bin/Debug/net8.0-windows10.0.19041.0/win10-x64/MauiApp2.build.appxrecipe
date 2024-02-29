@@ -217,6 +217,9 @@
     <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
       <PackagePath>MauiApp2.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tabat\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\es\MauiApp2.resources.dll">
+      <PackagePath>es\MauiApp2.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tabat\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>

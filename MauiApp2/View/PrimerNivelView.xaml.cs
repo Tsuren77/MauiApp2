@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MauiApp2.Servicios;
+﻿using MauiApp2.Servicios;
 using MauiApp2.ViewModels;
 
 namespace MauiApp2.View;

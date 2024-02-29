@@ -1,0 +1,19 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.View.SettingView"
+             xmlns:p="clr-namespace:MauiApp2.Properties"
+             xmlns:viewModels="clr-namespace:MauiApp2.ViewModels">
+    <ContentPage.BindingContext>
+        <viewModels:SettingViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Button x:Name="btnIdiomaEspañol" Text="{Binding TextoBotonEspañol}" WidthRequest="100" Grid.Row="0" />
+            <Button x:Name="btnIdiomaIngles" Text="{Binding TextoBotonIngles}" WidthRequest="100" Grid.Row="1" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

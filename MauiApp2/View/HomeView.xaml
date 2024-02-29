@@ -5,28 +5,28 @@
              x:Class="MauiApp2.View.HomeView">
     <ContentPage.Content>
       
-      <CollectionView ItemsSource="{Binding Personajes}">
-          <CollectionView.ItemsLayout>
-              <GridItemsLayout Orientation="Vertical" Span="4" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
-          </CollectionView.ItemsLayout>
-          <CollectionView.ItemTemplate>
-              <DataTemplate>
-                  <Frame BackgroundColor="#97ce4c" CornerRadius="10"  WidthRequest="180">
-                      <Frame.GestureRecognizers>
-                          <TapGestureRecognizer Tapped="OnPersonajeTapped" />
-                      </Frame.GestureRecognizers>
-                      <Grid>
-                          <Grid.RowDefinitions>
-                              <RowDefinition Height="Auto" />
-                              <RowDefinition Height="Auto" />
-                          </Grid.RowDefinitions>
-                          <Image Grid.Row="0" Source="{Binding image}" Aspect="AspectFill" HeightRequest="150" />
-                          <Label Grid.Row="1" Text="{Binding name}" VerticalTextAlignment="Center" Margin="5"/>
-                      </Grid>
-                  </Frame>
-              </DataTemplate>
-          </CollectionView.ItemTemplate>
-      </CollectionView>
+        <CollectionView ItemsSource="{Binding Personajes}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="4" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="#97ce4c" CornerRadius="10"  WidthRequest="180">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPersonajeTapped" />
+                        </Frame.GestureRecognizers>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0" Source="{Binding image}" Aspect="AspectFill" HeightRequest="150" />
+                            <Label Grid.Row="1" Text="{Binding name}" VerticalTextAlignment="Center" Margin="5"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
     </ContentPage.Content>
 </ContentPage>

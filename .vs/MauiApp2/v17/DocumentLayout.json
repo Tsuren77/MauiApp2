@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tabat\\RiderProjects\\MauiApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A816C1F9-1838-41A2-97EE-59DCFA788B75}|MauiApp2\\MauiApp2.csproj|c:\\users\\tabat\\riderprojects\\mauiapp2\\mauiapp2\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A816C1F9-1838-41A2-97EE-59DCFA788B75}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A816C1F9-1838-41A2-97EE-59DCFA788B75}|MauiApp2\\MauiApp2.csproj|c:\\users\\tabat\\riderprojects\\mauiapp2\\mauiapp2\\properties\\resources.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A816C1F9-1838-41A2-97EE-59DCFA788B75}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\properties\\resources.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\tabat\\RiderProjects\\MauiApp2\\MauiApp2\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "MauiApp2\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\tabat\\RiderProjects\\MauiApp2\\MauiApp2\\Properties\\Resources.resx",
+              "RelativeToolTip": "MauiApp2\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-28T17:27:36.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.es.resx",
+              "DocumentMoniker": "C:\\Users\\tabat\\RiderProjects\\MauiApp2\\MauiApp2\\Properties\\Resources.es.resx",
+              "RelativeDocumentMoniker": "MauiApp2\\Properties\\Resources.es.resx",
+              "ToolTip": "C:\\Users\\tabat\\RiderProjects\\MauiApp2\\MauiApp2\\Properties\\Resources.es.resx",
+              "RelativeToolTip": "MauiApp2\\Properties\\Resources.es.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-28T17:27:24.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
