@@ -7,13 +7,9 @@
         <viewModels:SettingViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="60" />
-                <RowDefinition Height="60" />
-            </Grid.RowDefinitions>
-            <Button x:Name="btnIdiomaEspañol" Text="{Binding TextoBotonEspañol}" WidthRequest="100" Grid.Row="0" />
-            <Button x:Name="btnIdiomaIngles" Text="{Binding TextoBotonIngles}" WidthRequest="100" Grid.Row="1" />
-        </Grid>
+        <StackLayout>
+            <Button Text="{x:Static p:Resources.CIdiomaEsp}" Clicked="BtnIdiomaEspañol_Clicked"/>
+            <Button Text="{x:Static p:Resources.CIdiomaIng}" Clicked="BtnIdiomaIngles_Clicked"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

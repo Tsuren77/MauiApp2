@@ -28,6 +28,8 @@ public static class MauiProgram
         builder.Services.AddTransient<AboutViewModel>();
         builder.Services.AddTransient<SettingView>();
         builder.Services.AddTransient<SettingViewModel>();
+        builder.Services.AddTransient<DetailView>();
+        builder.Services.AddTransient<DetailViewModel>();
         
 
 #if DEBUG

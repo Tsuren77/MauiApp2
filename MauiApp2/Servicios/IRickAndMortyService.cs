@@ -5,9 +5,7 @@ namespace MauiApp2.Servicios;
 
 public interface IRickAndMortyService
 {
-    
-    public Task<List<Personajes>>Obtener();
-    Task<List<Location>> ObtenerLocalizacion();
-    
- 
+    Task<Personajes> Obtener();
+    Task<Personajes> ObtenerMas(string url);
+    Task<List<Location1>> ObtenerLocalizacion();
 }

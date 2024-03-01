@@ -22,7 +22,7 @@
         </member>
         <member name="P:MauiApp2.Properties.Resources.Abou">
             <summary>
-              Looks up a localized string similar to espa.
+              Looks up a localized string similar to About.
             </summary>
         </member>
         <member name="P:MauiApp2.Properties.Resources.Characters">
@@ -45,9 +45,24 @@
               Looks up a localized string similar to Settings.
             </summary>
         </member>
+        <member name="P:MauiApp2.Properties.Resources.LDimen">
+            <summary>
+              Looks up a localized string similar to Dimension.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.LName">
+            <summary>
+              Looks up a localized string similar to Name.
+            </summary>
+        </member>
         <member name="P:MauiApp2.Properties.Resources.Location">
             <summary>
               Looks up a localized string similar to Locations.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources.LType">
+            <summary>
+              Looks up a localized string similar to Type.
             </summary>
         </member>
         <member name="T:MauiApp2.Properties.Resources_es">
@@ -68,7 +83,7 @@
         </member>
         <member name="P:MauiApp2.Properties.Resources_es.Abou">
             <summary>
-              Looks up a localized string similar to ingles.
+              Looks up a localized string similar to Acerca de.
             </summary>
         </member>
         <member name="P:MauiApp2.Properties.Resources_es.Characters">
@@ -91,9 +106,24 @@
               Looks up a localized string similar to Configuracion.
             </summary>
         </member>
+        <member name="P:MauiApp2.Properties.Resources_es.LDimen">
+            <summary>
+              Looks up a localized string similar to Dimension.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.LName">
+            <summary>
+              Looks up a localized string similar to Nombre.
+            </summary>
+        </member>
         <member name="P:MauiApp2.Properties.Resources_es.Location">
             <summary>
               Looks up a localized string similar to Lugares.
+            </summary>
+        </member>
+        <member name="P:MauiApp2.Properties.Resources_es.LType">
+            <summary>
+              Looks up a localized string similar to Tipo.
             </summary>
         </member>
     </members>
